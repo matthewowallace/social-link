@@ -15,7 +15,7 @@ function App() {
             <h2>Social Links</h2>
         </div>
         <div className="links-container">
-            <ul>
+            <ul style={{padding: "0"}}>
               <li>
                 <div className="social-links">
                   <img src={images.github} alt="github"/>

@@ -79,6 +79,8 @@ body {
 
       ul{
         list-style: none;
+        margin: 0;
+        padding: 0;
       }
 
       li{
@@ -141,7 +143,12 @@ body {
               font-size:0.9rem;
               padding: 10px 30px;
             }
+        }
 
+        ul{
+          list-style: none;
+          padding: 0;
+          margin: 0;
         }
     }
 
@@ -154,6 +161,21 @@ body {
         z-index: 2;
       }
     }
+
+
+    
+    .social--name{
+      position: absolute;
+      top: 260px;
+      margin: 5px;
+      padding: 10px 20px;
+      background-color: rgb(255, 255, 255);
+      font-size: 1.4rem;
+      font-weight: bold;
+      border-radius: 20px;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      box-shadow: (1,1,1,1);
+      z-index: 3;
+    }
  }
 }
-
