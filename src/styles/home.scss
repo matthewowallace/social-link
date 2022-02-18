@@ -1,3 +1,12 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(../../fonts/SF-UI-Display-Black.otf);
+}
+
+@font-face {
+  font-family: mySecondFont;
+  src: url(../../fonts/SF-Compact-Text-Regular.otf);
+}
 
 body {
    color: black;
@@ -38,6 +47,8 @@ body {
           padding: 0;
           border-radius: 25px;
           background-color: #FEDC65;
+          outline:4px solid #ffedae;
+          outline-offset: 10px;
         }
     }
 
@@ -50,7 +61,7 @@ body {
       font-size: 1.4rem;
       font-weight: bold;
       border-radius: 20px;
-      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-family:'myFirstFont', 'Arial Narrow', Arial, sans-serif;
       box-shadow: (1,1,1,1);
       z-index: 3;
     }
@@ -63,9 +74,9 @@ body {
       align-items: center;
 
        h2{
-         font-size: 1.8rem;
+         font-size: 1.7rem;
           font-weight: bold;
-          font-family: 'Trebuchet MS', sans-serif;
+          font-family: 'myFirstFont', sans-serif;
           text-transform: uppercase;
           -webkit-transform:rotateY(180deg);
           -moz-transform:rotateY(180deg);
@@ -103,12 +114,12 @@ body {
           p{
             color: #fff;
             font-size: 1.1rem;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-family: 'mySecondFont', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
           }
 
           button{
             font-size: 1.3rem;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-family: 'mySecondFont', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             padding: 12px 40px;
             border-radius: 30px;
             border: none;
@@ -173,7 +184,7 @@ body {
       font-size: 1.4rem;
       font-weight: bold;
       border-radius: 20px;
-      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-family:'myFirstFont', 'Arial Narrow', Arial, sans-serif;
       box-shadow: (1,1,1,1);
       z-index: 3;
     }
